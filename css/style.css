@@ -1,0 +1,132 @@
+body{
+	padding: 0;
+	margin: 0; 
+	height: 100%;
+}
+a{
+ text-decoration: none;
+ transition: 0.6s;
+}
+strong{
+	font-weight: 400 !important;
+}
+h1{
+	font-size: 35px;
+	line-height: 40px;
+	color: #ffffff;
+}
+p {
+	margin: 10px 0 20px 0; 
+}
+/*======= main section css here ===========*/
+.main{
+	float: left;
+	width: 100%;
+	background-image: url(img/bg-img.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+/*====left sidebar section css here =====*/
+.left-sidebar{
+	float: left;
+	width: 100%;
+	background-color: #96D4AB;
+}
+/*==== inner wrapper section css here ====*/
+.inner-wrapper{
+	float: left;
+	width: 80%;
+	background-color: #49525B;
+	padding: 0 30px 0 90px;
+
+}
+/*==== header css starts here =====*/
+header{
+	float: left;
+	width: 100%;
+	padding: 50px 0 0 0;
+	border-bottom: 1px solid #AEBBCB;
+}
+.logo{
+	font-size: ;
+	line-height: ;
+	color: #AEBBCB;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 16px;
+
+}
+.logo:hover{
+	text-decoration: none;
+	color: #AEBBCB !important;
+}
+/*==== top navigation css here =====*/
+.navbar-inverse{
+	background-color: transparent !important;
+	border-color: transparent !important;
+}
+#myNavbar .navbar-nav{
+	float: right;
+}
+.navbar-nav li.active a{
+	color: #8dc9a9 !important;
+}
+.navbar-nav li.active a{
+	background-color: transparent !important;
+}
+.navbar-inverse .navbar-nav>li>a{
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.navbar-nav li a:hover{
+	color: #8dc9a9 !important;
+}
+.navbar{
+	margin-bottom: 0 !important;
+}
+
+/*======== digital-section css starts here ============*/
+.digital-section{
+	float: left;
+	width: 100%;
+	padding: 100px 0 200px 0;
+	text-align: left;
+}
+.light-green{
+	color: #8ED1A3;
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.digital-section h1{
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 40px;
+	color: #ffffff;
+}
+.info-content{
+	float: left;
+	width: 25%;
+	padding-top: 50px;
+}
+.info-content p{
+	color: #ffffff;
+	font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
